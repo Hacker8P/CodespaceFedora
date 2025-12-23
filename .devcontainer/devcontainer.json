@@ -1,6 +1,6 @@
 {
     "name": "Fedora systemd Codespaces",
-    "image": "",
+    "image": "https://hub.docker.com/r/fedora/systemd-systemd",
 
     "runArgs": [ "--cap-add=NET_ADMIN", "--cap-add=NET_RAW", "--device=/dev/net/tun", "--device=/dev/fuse" ],
     "overrideCommand": false,
